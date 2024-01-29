@@ -10,7 +10,7 @@ const NewCollection = () => {
       <hr />
       <div className="collection">
       {new_collection.map((item, i) => {
-        return <Items key={i} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
+        return <Items key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
       })}
       </div>
     </div>
