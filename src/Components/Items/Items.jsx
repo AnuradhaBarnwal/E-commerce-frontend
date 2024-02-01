@@ -3,7 +3,7 @@ import "./Items.css";
 import { Link } from "react-router-dom";
 
 const Items = (props) => {
-  console.log("props$$$$$$",props.id)
+  // console.log("props$$$$$$",props.id)
   return (
     <div className="item">
     <Link to={`/product/${props.id}`}><img onClick={window.scrollTo(0,0)} src={props.image} alt="" /></Link>  
